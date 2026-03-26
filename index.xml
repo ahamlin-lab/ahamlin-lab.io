@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>tut</title>
+<link>https://ahamlin-lab.io/</link>
+<atom:link href="https://ahamlin-lab.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>A blog built with Quarto</description>
+<generator>quarto-1.8.27</generator>
+<lastBuildDate>Wed, 25 Mar 2026 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Post With Code</title>
+  <dc:creator>Harlow Malloc</dc:creator>
+  <link>https://ahamlin-lab.io/posts/post-with-code/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>This is a post with executable code.</p>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <category>code</category>
+  <category>analysis</category>
+  <guid>https://ahamlin-lab.io/posts/post-with-code/</guid>
+  <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
+  <media:content url="https://ahamlin-lab.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Tutorial</title>
+  <dc:creator>Akeema Hamlin</dc:creator>
+  <link>https://ahamlin-lab.io/posts/welcome/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>“Akeema’s BIOL 109 Website”</p>
+<p>#Welcome to My BIOL 109 Tutorials This website contains tutorials on tasks from BIOL 109. Here you will find guides to help you with lab skills, presentations, and more.</p>
+<p>##Tutorials -<a href="tutorials/lab_notebook.qmd">How to Maintain a Lab Notebook</a></p>
+<p>— How to Maintain a Lab Notebook” description: “step-by-step guide for Biol 109 students” — ##Introduction Keeping a lab notebook helps track experiments, observations, and results accurately</p>
+<section id="materials-needed" class="level2">
+<h2 class="anchored" data-anchor-id="materials-needed">Materials needed</h2>
+<p>-Notebook (spiral or bound) -Pen (blue or black ink) -Ruler (optional) -Labels or sticky notes</p>
+<p>##Steps 1. <strong>Title Your Experiment</strong> -Write the experiment title at the top of the page. -Include the date and your name.</p>
+<ol start="2" type="1">
+<li><p><strong>Record purpose &amp; Hypothesis</strong> -Clearly state the purpose of the experiment. -Write your hypothesis</p></li>
+<li><p><strong>Document Methods</strong> -Record each step of your experiment. -Ne detailed enough so someone else could replicate it. 4.** Observation &amp; Data** -Record all observations and measurements. -Use tables or drawings if needed.</p></li>
+</ol>
+<p>5.<strong>Results &amp; Conclusion</strong> -Summarize your results. -Note whether your hypothesis was supported.</p>
+<p>6.<strong>Sign &amp; Date</strong> -Sign and date your entries at the end.</p>
+<p>##Tips -Always write in pen, never pencil. -Avoid leaving blank pages. -Be consistent with formatting and headings</p>
+
+
+</section>
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://ahamlin-lab.io/posts/welcome/</guid>
+  <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

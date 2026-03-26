@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>tut</title>
-<link>https://ahamlin-lab.github.io/</link>
-<atom:link href="https://ahamlin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://your-website-url.example.com/</link>
+<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
-<generator>quarto-1.8.27</generator>
+<generator>quarto-1.9.36</generator>
 <lastBuildDate>Wed, 25 Mar 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://ahamlin-lab.github.io/posts/post-with-code/</link>
+  <link>https://your-website-url.example.com/posts/post-with-code/</link>
   <description><![CDATA[ 
 
 
@@ -29,14 +29,14 @@
   <category>news</category>
   <category>code</category>
   <category>analysis</category>
-  <guid>https://ahamlin-lab.github.io/posts/post-with-code/</guid>
+  <guid>https://your-website-url.example.com/posts/post-with-code/</guid>
   <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://ahamlin-lab.github.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://your-website-url.example.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Tutorial</title>
   <dc:creator>Akeema Hamlin</dc:creator>
-  <link>https://ahamlin-lab.github.io/posts/welcome/</link>
+  <link>https://your-website-url.example.com/posts/welcome/</link>
   <description><![CDATA[ 
 
 
@@ -117,7 +117,7 @@
 
  ]]></description>
   <category>news</category>
-  <guid>https://ahamlin-lab.github.io/posts/welcome/</guid>
+  <guid>https://your-website-url.example.com/posts/welcome/</guid>
   <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>

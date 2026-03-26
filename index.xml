@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>tut</title>
-<link>https://ahamlin-lab.io/</link>
-<atom:link href="https://ahamlin-lab.io/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://ahamlin-lab.github.io/</link>
+<atom:link href="https://ahamlin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.8.27</generator>
 <lastBuildDate>Wed, 25 Mar 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://ahamlin-lab.io/posts/post-with-code/</link>
+  <link>https://ahamlin-lab.github.io/posts/post-with-code/</link>
   <description><![CDATA[ 
 
 
@@ -29,14 +29,14 @@
   <category>news</category>
   <category>code</category>
   <category>analysis</category>
-  <guid>https://ahamlin-lab.io/posts/post-with-code/</guid>
+  <guid>https://ahamlin-lab.github.io/posts/post-with-code/</guid>
   <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://ahamlin-lab.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://ahamlin-lab.github.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Tutorial</title>
   <dc:creator>Akeema Hamlin</dc:creator>
-  <link>https://ahamlin-lab.io/posts/welcome/</link>
+  <link>https://ahamlin-lab.github.io/posts/welcome/</link>
   <description><![CDATA[ 
 
 
@@ -44,27 +44,80 @@
 
 
 <p>“Akeema’s BIOL 109 Website”</p>
-<p>#Welcome to My BIOL 109 Tutorials This website contains tutorials on tasks from BIOL 109. Here you will find guides to help you with lab skills, presentations, and more.</p>
-<p>##Tutorials -<a href="tutorials/lab_notebook.qmd">How to Maintain a Lab Notebook</a></p>
-<p>— How to Maintain a Lab Notebook” description: “step-by-step guide for Biol 109 students” — ##Introduction Keeping a lab notebook helps track experiments, observations, and results accurately</p>
+<section id="welcome-to-my-biol-109-tutorials" class="level1">
+<h1>Welcome to My BIOL 109 Tutorials</h1>
+<p>This website contains tutorials on tasks from BIOL 109. Here you will find guides to help you with lab skills, presentations, and more.</p>
+<section id="tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="tutorials">Tutorials</h2>
+<ul>
+<li><p><a href="tutorials/lab_notebook.qmd">How to Maintain a Lab Notebook</a></p></li>
+<li><p>How to Maintain a Lab Notebook”</p></li>
+<li><p>description: “step-by-step guide for Biol 109 students” —</p></li>
+</ul>
+</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Keeping a lab notebook helps track experiments, observations, and results accurately</p>
+</section>
 <section id="materials-needed" class="level2">
 <h2 class="anchored" data-anchor-id="materials-needed">Materials needed</h2>
-<p>-Notebook (spiral or bound) -Pen (blue or black ink) -Ruler (optional) -Labels or sticky notes</p>
-<p>##Steps 1. <strong>Title Your Experiment</strong> -Write the experiment title at the top of the page. -Include the date and your name.</p>
-<ol start="2" type="1">
-<li><p><strong>Record purpose &amp; Hypothesis</strong> -Clearly state the purpose of the experiment. -Write your hypothesis</p></li>
-<li><p><strong>Document Methods</strong> -Record each step of your experiment. -Ne detailed enough so someone else could replicate it. 4.** Observation &amp; Data** -Record all observations and measurements. -Use tables or drawings if needed.</p></li>
+<ul>
+<li>Notebook (spiral or bound)</li>
+<li>Pen (blue or black ink)</li>
+<li>Ruler (optional)</li>
+<li>Labels or sticky notes</li>
+</ul>
+</section>
+<section id="steps" class="level2">
+<h2 class="anchored" data-anchor-id="steps">Steps</h2>
+<ol type="1">
+<li><strong>Title Your Experiment</strong></li>
 </ol>
-<p>5.<strong>Results &amp; Conclusion</strong> -Summarize your results. -Note whether your hypothesis was supported.</p>
-<p>6.<strong>Sign &amp; Date</strong> -Sign and date your entries at the end.</p>
-<p>##Tips -Always write in pen, never pencil. -Avoid leaving blank pages. -Be consistent with formatting and headings</p>
+<p>-Write the experiment title at the top of the page. -Include the date and your name.</p>
+<ol start="2" type="1">
+<li><strong>Record purpose &amp; Hypothesis</strong></li>
+</ol>
+<ul>
+<li>Clearly state the purpose of the experiment.</li>
+<li>Write your hypothesis</li>
+</ul>
+<ol start="3" type="1">
+<li><strong>Document Methods</strong></li>
+</ol>
+<ul>
+<li>Record each step of your experiment.</li>
+<li>Ne detailed enough so someone else could replicate it.</li>
+</ul>
+<p>4.** Observation &amp; Data**</p>
+<ul>
+<li>Record all observations and measurements.</li>
+<li>Use tables or drawings if needed.</li>
+</ul>
+<p>5.<strong>Results &amp; Conclusion</strong></p>
+<ul>
+<li>Summarize your results.</li>
+<li>Note whether your hypothesis was supported.</li>
+</ul>
+<p>6.<strong>Sign &amp; Date</strong></p>
+<ul>
+<li>Sign and date your entries at the end.</li>
+</ul>
+</section>
+<section id="tips" class="level2">
+<h2 class="anchored" data-anchor-id="tips">Tips</h2>
+<ul>
+<li>Always write in pen, never pencil.</li>
+<li>Avoid leaving blank pages.</li>
+<li>Be consistent with formatting and headings</li>
+</ul>
 
 
+</section>
 </section>
 
  ]]></description>
   <category>news</category>
-  <guid>https://ahamlin-lab.io/posts/welcome/</guid>
+  <guid>https://ahamlin-lab.github.io/posts/welcome/</guid>
   <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>

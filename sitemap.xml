@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ahamlin-lab.io/index.html</loc>
+    <loc>https://ahamlin-lab.github.io/index.html</loc>
     <lastmod>2026-03-26T19:58:04.303Z</lastmod>
   </url>
   <url>
-    <loc>https://ahamlin-lab.io/posts/welcome/index.html</loc>
+    <loc>https://ahamlin-lab.github.io/posts/welcome/index.html</loc>
+    <lastmod>2026-03-26T20:04:05.402Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ahamlin-lab.github.io/posts/post-with-code/index.html</loc>
     <lastmod>2026-03-26T19:58:04.303Z</lastmod>
   </url>
   <url>
-    <loc>https://ahamlin-lab.io/posts/post-with-code/index.html</loc>
-    <lastmod>2026-03-26T19:58:04.303Z</lastmod>
-  </url>
-  <url>
-    <loc>https://ahamlin-lab.io/about.html</loc>
+    <loc>https://ahamlin-lab.github.io/about.html</loc>
     <lastmod>2026-03-26T19:58:04.299Z</lastmod>
   </url>
 </urlset>

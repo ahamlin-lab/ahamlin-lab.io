@@ -1,1 +1,1 @@
-Sitemap: https://ahamlin-lab.io/sitemap.xml
+Sitemap: https://ahamlin-lab.github.io/sitemap.xml

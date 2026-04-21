@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "tut",
+    "section": "",
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 25, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nTutorial\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 22, 2026\n\n\nAkeema Hamlin\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Tutorial",
+    "section": "",
+    "text": "“Akeema’s BIOL 109 Website”"
+  },
+  {
+    "objectID": "posts/welcome/index.html#tutorials",
+    "href": "posts/welcome/index.html#tutorials",
+    "title": "Tutorial",
+    "section": "Tutorials",
+    "text": "Tutorials\n\nHow to Maintain a Lab Notebook\nHow to Maintain a Lab Notebook”\ndescription: “step-by-step guide for Biol 109 students” —"
+  },
+  {
+    "objectID": "posts/welcome/index.html#introduction",
+    "href": "posts/welcome/index.html#introduction",
+    "title": "Tutorial",
+    "section": "Introduction",
+    "text": "Introduction\nKeeping a lab notebook helps track experiments, observations, and results accurately"
+  },
+  {
+    "objectID": "posts/welcome/index.html#materials-needed",
+    "href": "posts/welcome/index.html#materials-needed",
+    "title": "Tutorial",
+    "section": "Materials needed",
+    "text": "Materials needed\n\nNotebook (spiral or bound)\nPen (blue or black ink)\nRuler (optional)\nLabels or sticky notes"
+  },
+  {
+    "objectID": "posts/welcome/index.html#steps",
+    "href": "posts/welcome/index.html#steps",
+    "title": "Tutorial",
+    "section": "Steps",
+    "text": "Steps\n\nTitle Your Experiment\n\n-Write the experiment title at the top of the page. -Include the date and your name.\n\nRecord purpose & Hypothesis\n\n\nClearly state the purpose of the experiment.\nWrite your hypothesis\n\n\nDocument Methods\n\n\nRecord each step of your experiment.\nNe detailed enough so someone else could replicate it.\n\n4.** Observation & Data**\n\nRecord all observations and measurements.\nUse tables or drawings if needed.\n\n5.Results & Conclusion\n\nSummarize your results.\nNote whether your hypothesis was supported.\n\n6.Sign & Date\n\nSign and date your entries at the end."
+  },
+  {
+    "objectID": "posts/welcome/index.html#tips",
+    "href": "posts/welcome/index.html#tips",
+    "title": "Tutorial",
+    "section": "Tips",
+    "text": "Tips\n\nAlways write in pen, never pencil.\nAvoid leaving blank pages.\nBe consistent with formatting and headings"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  }
+]

@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "tut",
     "section": "",
-    "text": "About this blog"
+    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 25, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nTutorial\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 22, 2026\n\n\nAkeema Hamlin\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -12,13 +12,6 @@
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "tut",
-    "section": "",
-    "text": "Post With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nMar 25, 2026\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nTutorial\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nMar 22, 2026\n\n\nAkeema Hamlin\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -60,6 +53,13 @@
     "href": "posts/welcome/index.html#tips",
     "title": "Tutorial",
     "section": "Tips",
-    "text": "Tips\n\nAlways write in pen, never pencil.\nAvoid leaving blank pages.\nBe consistent with formatting and headings"
+    "text": "Tips\n\nAlways write in pen, never pencil.\nAvoid leaving blank pages.\nBe consistent with formatting and headings\n\nAnother\n✅ Step 1: Create Your Quarto Website \nIn your terminal: \nquarto create-project biol109-tutorial –type website \ncd biol109-tutorial \nquarto preview \nThis creates your site. You’ll edit files inside this folder. \n \n✅ Step 2: Edit _quarto.yml \nproject: \n type: website \n \nwebsite: \n title: “BIOL 109 Tutorial” \n navbar: \n   left: \n     - href: index.qmd \n       text: Home \n     - href: tutorial.qmd \n       text: Tutorial \n \nformat: \n html: \n   theme: cosmo \n   toc: true \n \n✅ Step 3: Home Page (index.qmd) \n— \ntitle: “Welcome” \n— \n \n# BIOL 109 Tutorial Website \n \nThis website contains a tutorial on how to prepare a biology presentation using a clear and structured approach. \n \nCreated using Quarto. \n \n✅ Step 4: Your Tutorial Page (tutorial.qmd) \nHere’s a complete tutorial based on your earlier topic: \n👉 Preparing a bone remodeling presentation \n— \ntitle: “How to Prepare a Bone Remodeling Presentation” \nauthor: “Your Name” \nformat: html \n— \n \n## Introduction \n \nThis tutorial explains how to create a clear and effective biology presentation using the topic of bone remodeling. It is designed for students in BIOL 109. \n \n— \n \n## Step 1: Understand the Topic \n \nBefore creating slides, research the key concepts: \n \n- Bone remodeling is the process of bone renewal \n- It involves osteoclasts (break down bone) and osteoblasts (build bone) \n- It maintains strength and calcium balance \n \n— \n \n## Step 2: Plan Your Slides \n \nOrganize your presentation into sections: \n \n1. Introduction   \n2. Bone cells   \n3. Remodeling process   \n4. Regulation   \n5. Clinical relevance   \n6. Summary   \n \n— \n \n## Step 3: Create Clear Slides \n \nEach slide should: \n \n- Have a clear title   \n- Use bullet points (not paragraphs)   \n- Include labeled diagrams   \n \nExample: \n \n**Slide: Bone Cells** \n- Osteoclasts → bone resorption   \n- Osteoblasts → bone formation   \n- Osteocytes → signaling   \n \n— \n \n## Step 4: Use Visuals Effectively \n \nInclude: \n \n- Diagrams of bone cells   \n- Step-by-step remodeling cycle   \n- Comparison images (healthy vs diseased bone)   \n \nAvoid clutter and keep visuals simple. \n \n— \n \n## Step 5: Practice Delivery \n \n- Speak clearly and do not read slides   \n- Explain diagrams in your own words   \n- Keep timing consistent (1–2 minutes per slide)   \n \n— \n \n## Step 6: Cite Your Sources \n \nAlways include references. Example: \n \n## References \n \n- OpenStax. *Anatomy & Physiology*.   \n- National Institutes of Health (NIH) – Bone Health   \n \n \n✅ Step 5: Add Citations (Quarto Requirement) \nQuarto prefers .bib files. \nCreate references.bib: \n@book{openstax, \n title={Anatomy and Physiology}, \n author={OpenStax}, \n year={2019}, \n publisher={OpenStax} \n} \n \n@misc{nih, \n title={Bone Health and Osteoporosis}, \n author={{National Institutes of Health}}, \n year={2023}, \n url={https://www.nih.gov} \n} \nThen update your tutorial: \n— \ntitle: “How to Prepare a Bone Remodeling Presentation” \nbibliography: references.bib \n— \n \nBone remodeling is essential for maintaining skeletal strength [@openstax]. \n \nNIH provides guidance on bone health [@nih]. \n \n✅ Step 6: Publish Your Website \nEasiest method: GitHub Pages \nquarto publish gh-pages \nOr follow Quarto’s guide if needed."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
   }
 ]

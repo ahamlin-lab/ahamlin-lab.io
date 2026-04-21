@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>tut</title>
-<link>https://your-website-url.example.com/</link>
-<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://ahamlin-lab.github.io/</link>
+<atom:link href="https://ahamlin-lab.github.io/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
-<generator>quarto-1.9.36</generator>
+<generator>quarto-1.9.37</generator>
 <lastBuildDate>Wed, 25 Mar 2026 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
-  <link>https://your-website-url.example.com/posts/post-with-code/</link>
+  <link>https://ahamlin-lab.github.io/posts/post-with-code/</link>
   <description><![CDATA[ 
 
 
@@ -29,14 +29,14 @@
   <category>news</category>
   <category>code</category>
   <category>analysis</category>
-  <guid>https://your-website-url.example.com/posts/post-with-code/</guid>
+  <guid>https://ahamlin-lab.github.io/posts/post-with-code/</guid>
   <pubDate>Wed, 25 Mar 2026 00:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://ahamlin-lab.github.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Tutorial</title>
   <dc:creator>Akeema Hamlin</dc:creator>
-  <link>https://your-website-url.example.com/posts/welcome/</link>
+  <link>https://ahamlin-lab.github.io/posts/welcome/</link>
   <description><![CDATA[ 
 
 
@@ -110,6 +110,158 @@
 <li>Avoid leaving blank pages.</li>
 <li>Be consistent with formatting and headings</li>
 </ul>
+<p>Another</p>
+<p><strong>✅ Step 1: Create Your Quarto Website</strong>&nbsp;</p>
+<p>In your terminal:&nbsp;</p>
+<p>quarto create-project biol109-tutorial –type website&nbsp;<br>
+cd biol109-tutorial&nbsp;<br>
+quarto preview&nbsp;</p>
+<p>This creates your site. You’ll edit files inside this folder.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>✅ Step 2: Edit _quarto.yml</strong>&nbsp;</p>
+<p>project:&nbsp;<br>
+&nbsp;type: website&nbsp;<br>
+&nbsp;<br>
+website:&nbsp;<br>
+&nbsp;title: “BIOL 109 Tutorial”&nbsp;<br>
+&nbsp;navbar:&nbsp;<br>
+&nbsp;&nbsp;&nbsp;left:&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- href: index.qmd&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text: Home&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- href: tutorial.qmd&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text: Tutorial&nbsp;<br>
+&nbsp;<br>
+format:&nbsp;<br>
+&nbsp;html:&nbsp;<br>
+&nbsp;&nbsp;&nbsp;theme: cosmo&nbsp;<br>
+&nbsp;&nbsp;&nbsp;toc: true&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>✅ Step 3: Home Page (index.qmd)</strong>&nbsp;</p>
+<p>—&nbsp;<br>
+title: “Welcome”&nbsp;<br>
+—&nbsp;<br>
+&nbsp;<br>
+# BIOL 109 Tutorial Website&nbsp;<br>
+&nbsp;<br>
+This website contains a tutorial on how to prepare a biology presentation using a clear and structured approach.&nbsp;<br>
+&nbsp;<br>
+Created using Quarto.&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>✅ Step 4: Your Tutorial Page (tutorial.qmd)</strong>&nbsp;</p>
+<p>Here’s a <strong>complete tutorial</strong> based on your earlier topic:&nbsp;<br>
+👉 Preparing a bone remodeling presentation&nbsp;</p>
+<p>—&nbsp;<br>
+title: “How to Prepare a Bone Remodeling Presentation”&nbsp;<br>
+author: “Your Name”&nbsp;<br>
+format: html&nbsp;<br>
+—&nbsp;<br>
+&nbsp;<br>
+## Introduction&nbsp;<br>
+&nbsp;<br>
+This tutorial explains how to create a clear and effective biology presentation using the topic of bone remodeling. It is designed for students in BIOL 109.&nbsp;<br>
+&nbsp;<br>
+—&nbsp;<br>
+&nbsp;<br>
+## Step 1: Understand the Topic&nbsp;<br>
+&nbsp;<br>
+Before creating slides, research the key concepts:&nbsp;<br>
+&nbsp;<br>
+- Bone remodeling is the process of bone renewal&nbsp;<br>
+- It involves osteoclasts (break down bone) and osteoblasts (build bone)&nbsp;<br>
+- It maintains strength and calcium balance&nbsp;<br>
+&nbsp;<br>
+—&nbsp;<br>
+&nbsp;<br>
+## Step 2: Plan Your Slides&nbsp;<br>
+&nbsp;<br>
+Organize your presentation into sections:&nbsp;<br>
+&nbsp;<br>
+1. Introduction &nbsp;&nbsp;<br>
+2. Bone cells &nbsp;&nbsp;<br>
+3. Remodeling process &nbsp;&nbsp;<br>
+4. Regulation &nbsp;&nbsp;<br>
+5. Clinical relevance &nbsp;&nbsp;<br>
+6. Summary &nbsp;&nbsp;<br>
+&nbsp;<br>
+—&nbsp;<br>
+&nbsp;<br>
+## Step 3: Create Clear Slides&nbsp;<br>
+&nbsp;<br>
+Each slide should:&nbsp;<br>
+&nbsp;<br>
+- Have a clear title &nbsp;&nbsp;<br>
+- Use bullet points (not paragraphs) &nbsp;&nbsp;<br>
+- Include labeled diagrams &nbsp;&nbsp;<br>
+&nbsp;<br>
+Example:&nbsp;<br>
+&nbsp;<br>
+**Slide: Bone Cells**&nbsp;<br>
+- Osteoclasts → bone resorption &nbsp;&nbsp;<br>
+- Osteoblasts → bone formation &nbsp;&nbsp;<br>
+- Osteocytes → signaling &nbsp;&nbsp;<br>
+&nbsp;<br>
+—&nbsp;<br>
+&nbsp;<br>
+## Step 4: Use Visuals Effectively&nbsp;<br>
+&nbsp;<br>
+Include:&nbsp;<br>
+&nbsp;<br>
+- Diagrams of bone cells &nbsp;&nbsp;<br>
+- Step-by-step remodeling cycle &nbsp;&nbsp;<br>
+- Comparison images (healthy vs diseased bone) &nbsp;&nbsp;<br>
+&nbsp;<br>
+Avoid clutter and keep visuals simple.&nbsp;<br>
+&nbsp;<br>
+—&nbsp;<br>
+&nbsp;<br>
+## Step 5: Practice Delivery&nbsp;<br>
+&nbsp;<br>
+- Speak clearly and do not read slides &nbsp;&nbsp;<br>
+- Explain diagrams in your own words &nbsp;&nbsp;<br>
+- Keep timing consistent (1–2 minutes per slide) &nbsp;&nbsp;<br>
+&nbsp;<br>
+—&nbsp;<br>
+&nbsp;<br>
+## Step 6: Cite Your Sources&nbsp;<br>
+&nbsp;<br>
+Always include references. Example:&nbsp;<br>
+&nbsp;<br>
+## References&nbsp;<br>
+&nbsp;<br>
+- OpenStax. *Anatomy &amp; Physiology*. &nbsp;&nbsp;<br>
+- National Institutes of Health (NIH) – Bone Health &nbsp;&nbsp;<br>
+&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>✅ Step 5: Add Citations (Quarto Requirement)</strong>&nbsp;</p>
+<p>Quarto prefers <strong>.bib files</strong>.&nbsp;</p>
+<p>Create references.bib:&nbsp;</p>
+<p>@book{openstax,&nbsp;<br>
+&nbsp;title={Anatomy and Physiology},&nbsp;<br>
+&nbsp;author={OpenStax},&nbsp;<br>
+&nbsp;year={2019},&nbsp;<br>
+&nbsp;publisher={OpenStax}&nbsp;<br>
+}&nbsp;<br>
+&nbsp;<br>
+@misc{nih,&nbsp;<br>
+&nbsp;title={Bone Health and Osteoporosis},&nbsp;<br>
+&nbsp;author={{National Institutes of Health}},&nbsp;<br>
+&nbsp;year={2023},&nbsp;<br>
+&nbsp;url={https://www.nih.gov}&nbsp;<br>
+}&nbsp;</p>
+<p>Then update your tutorial:&nbsp;</p>
+<p>—&nbsp;<br>
+title: “How to Prepare a Bone Remodeling Presentation”&nbsp;<br>
+bibliography: references.bib&nbsp;<br>
+—&nbsp;<br>
+&nbsp;<br>
+Bone remodeling is essential for maintaining skeletal strength [@openstax].&nbsp;<br>
+&nbsp;<br>
+NIH provides guidance on bone health [@nih].&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong>✅ Step 6: Publish Your Website</strong>&nbsp;</p>
+<p>Easiest method: <strong>GitHub Pages</strong>&nbsp;</p>
+<p>quarto publish gh-pages&nbsp;</p>
+<p>Or follow Quarto’s guide if needed.&nbsp;</p>
 
 
 </section>
@@ -117,7 +269,7 @@
 
  ]]></description>
   <category>news</category>
-  <guid>https://your-website-url.example.com/posts/welcome/</guid>
+  <guid>https://ahamlin-lab.github.io/posts/welcome/</guid>
   <pubDate>Sun, 22 Mar 2026 00:00:00 GMT</pubDate>
 </item>
 </channel>

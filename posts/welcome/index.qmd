@@ -65,3 +65,182 @@ Keeping a lab notebook helps track experiments, observations, and results accura
 -   Always write in pen, never pencil.
 -   Avoid leaving blank pages.
 -   Be consistent with formatting and headings
+
+Another
+
+**✅ Step 1: Create Your Quarto Website** 
+
+In your terminal: 
+
+quarto create-project biol109-tutorial --type website \
+cd biol109-tutorial \
+quarto preview 
+
+This creates your site. You’ll edit files inside this folder. 
+
+ 
+
+**✅ Step 2: Edit \_quarto.yml** 
+
+project: \
+ type: website \
+ \
+website: \
+ title: "BIOL 109 Tutorial" \
+ navbar: \
+   left: \
+     - href: index.qmd \
+       text: Home \
+     - href: tutorial.qmd \
+       text: Tutorial \
+ \
+format: \
+ html: \
+   theme: cosmo \
+   toc: true 
+
+ 
+
+**✅ Step 3: Home Page (index.qmd)** 
+
+--- \
+title: "Welcome" \
+--- \
+ \
+\# BIOL 109 Tutorial Website \
+ \
+This website contains a tutorial on how to prepare a biology presentation using a clear and structured approach. \
+ \
+Created using Quarto. 
+
+ 
+
+**✅ Step 4: Your Tutorial Page (tutorial.qmd)** 
+
+Here’s a **complete tutorial** based on your earlier topic: \
+👉 Preparing a bone remodeling presentation 
+
+--- \
+title: "How to Prepare a Bone Remodeling Presentation" \
+author: "Your Name" \
+format: html \
+--- \
+ \
+\## Introduction \
+ \
+This tutorial explains how to create a clear and effective biology presentation using the topic of bone remodeling. It is designed for students in BIOL 109. \
+ \
+--- \
+ \
+\## Step 1: Understand the Topic \
+ \
+Before creating slides, research the key concepts: \
+ \
+- Bone remodeling is the process of bone renewal \
+- It involves osteoclasts (break down bone) and osteoblasts (build bone) \
+- It maintains strength and calcium balance \
+ \
+--- \
+ \
+\## Step 2: Plan Your Slides \
+ \
+Organize your presentation into sections: \
+ \
+1. Introduction   \
+2. Bone cells   \
+3. Remodeling process   \
+4. Regulation   \
+5. Clinical relevance   \
+6. Summary   \
+ \
+--- \
+ \
+\## Step 3: Create Clear Slides \
+ \
+Each slide should: \
+ \
+- Have a clear title   \
+- Use bullet points (not paragraphs)   \
+- Include labeled diagrams   \
+ \
+Example: \
+ \
+\*\*Slide: Bone Cells\*\* \
+- Osteoclasts → bone resorption   \
+- Osteoblasts → bone formation   \
+- Osteocytes → signaling   \
+ \
+--- \
+ \
+\## Step 4: Use Visuals Effectively \
+ \
+Include: \
+ \
+- Diagrams of bone cells   \
+- Step-by-step remodeling cycle   \
+- Comparison images (healthy vs diseased bone)   \
+ \
+Avoid clutter and keep visuals simple. \
+ \
+--- \
+ \
+\## Step 5: Practice Delivery \
+ \
+- Speak clearly and do not read slides   \
+- Explain diagrams in your own words   \
+- Keep timing consistent (1–2 minutes per slide)   \
+ \
+--- \
+ \
+\## Step 6: Cite Your Sources \
+ \
+Always include references. Example: \
+ \
+\## References \
+ \
+- OpenStax. \*Anatomy & Physiology\*.   \
+- National Institutes of Health (NIH) – Bone Health   \
+ 
+
+ 
+
+**✅ Step 5: Add Citations (Quarto Requirement)** 
+
+Quarto prefers **.bib files**. 
+
+Create references.bib: 
+
+\@book{openstax, \
+ title={Anatomy and Physiology}, \
+ author={OpenStax}, \
+ year={2019}, \
+ publisher={OpenStax} \
+} \
+ \
+\@misc{nih, \
+ title={Bone Health and Osteoporosis}, \
+ author={{National Institutes of Health}}, \
+ year={2023}, \
+ url={https://www.nih.gov} \
+} 
+
+Then update your tutorial: 
+
+--- \
+title: "How to Prepare a Bone Remodeling Presentation" \
+bibliography: references.bib \
+--- \
+ \
+Bone remodeling is essential for maintaining skeletal strength \[\@openstax\]. \
+ \
+NIH provides guidance on bone health \[\@nih\]. 
+
+ 
+
+**✅ Step 6: Publish Your Website** 
+
+Easiest method: **GitHub Pages** 
+
+quarto publish gh-pages 
+
+Or follow Quarto’s guide if needed. 
